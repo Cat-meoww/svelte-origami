@@ -1,38 +1,45 @@
-# create-svelte
+# Svelte Origami: Free 3D Motion Graphics
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This project is a detailed recreation of the origami-inspired 3D animation from Tympanus, built using the Three.js and Threlte framework. It faithfully reproduces the interactive experience, leveraging WebGL for smooth, real-time rendering of intricate folding animations and dynamic transitions. The project showcases the power of modern web technologies to replicate complex designs and bring them to life, offering a visually stunning and interactive user experience on the web.
 
-## Creating a project
+[Article on Codrops](https://tympanus.net/codrops/?p=79782)
 
-If you're seeing this, you've probably already done this step. Congrats!
+[Demo](https://cat-meoww.github.io/svelte-origami/)
+
+## Installation
+
+### Clone the repository:
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+git clone https://github.com/Cat-meoww/svelte-origami.git
 ```
 
-## Developing
+### Navigate to the project directory:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+```bash
+cd svelte-origami
+```
+
+### Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+## Usage
+
+### Running the Development Server
+
+To start the development server, run:
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+# or
+yarn dev
+# or
+pnpm dev
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
