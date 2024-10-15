@@ -1,5 +1,6 @@
 import { writable } from 'svelte/store';
-const textures = ["/texture/1.jpeg", "/texture/2.jpeg", "/texture/3.jpeg", "/texture/4.png"];
+import { base } from '$app/paths';
+const textures = [`${base}/texture/1.jpeg`, `${base}/texture/2.jpeg`, `${base}/texture/3.jpeg`, `${base}/texture/4.png`];
 
 interface Store {
     index: number;
