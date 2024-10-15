@@ -57,7 +57,7 @@
       <Link href="#">3D</Link>
     </div>
     <div class="flex px-2 py-2 space-x-4 sm:px-4 lg:justify-around">
-      <Link href="https://github.com/">GitHub</Link>
+      <Link href="https://cat-meoww.github.io/svelte-origami/">GitHub</Link>
       <Link href="https://tympanus.net/codrops/?p=79782">Article</Link>
     </div>
   </div>
